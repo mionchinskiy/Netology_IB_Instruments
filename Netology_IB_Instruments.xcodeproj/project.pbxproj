@@ -13,6 +13,10 @@
 		FAA8B73728369A880091EEA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA8B73528369A880091EEA9 /* Main.storyboard */; };
 		FAA8B73928369A8B0091EEA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA8B73828369A8B0091EEA9 /* Assets.xcassets */; };
 		FAA8B73C28369A8B0091EEA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA8B73A28369A8B0091EEA9 /* LaunchScreen.storyboard */; };
+		FAA8B74428369DFF0091EEA9 /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAA8B74328369DFF0091EEA9 /* ProfileView.xib */; };
+		FAA8B74628369E350091EEA9 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA8B74528369E350091EEA9 /* ProfileView.swift */; };
+		FAA8B7492836A1380091EEA9 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA8B7482836A1380091EEA9 /* Profile.storyboard */; };
+		FAA8B74D2836B3890091EEA9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA8B74C2836B3890091EEA9 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		FAA8B73828369A8B0091EEA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAA8B73B28369A8B0091EEA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAA8B73D28369A8B0091EEA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA8B74328369DFF0091EEA9 /* ProfileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ProfileView.xib; path = Netology_IB_Instruments/ProfileView.xib; sourceTree = SOURCE_ROOT; };
+		FAA8B74528369E350091EEA9 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileView.swift; path = Netology_IB_Instruments/ProfileView.swift; sourceTree = SOURCE_ROOT; };
+		FAA8B7482836A1380091EEA9 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = SOURCE_ROOT; };
+		FAA8B74C2836B3890091EEA9 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,10 @@
 				FAA8B73528369A880091EEA9 /* Main.storyboard */,
 				FAA8B73828369A8B0091EEA9 /* Assets.xcassets */,
 				FAA8B73A28369A8B0091EEA9 /* LaunchScreen.storyboard */,
+				FAA8B7482836A1380091EEA9 /* Profile.storyboard */,
+				FAA8B74C2836B3890091EEA9 /* ProfileViewController.swift */,
+				FAA8B74328369DFF0091EEA9 /* ProfileView.xib */,
+				FAA8B74528369E350091EEA9 /* ProfileView.swift */,
 				FAA8B73D28369A8B0091EEA9 /* Info.plist */,
 			);
 			path = Netology_IB_Instruments;
@@ -125,7 +137,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAA8B74428369DFF0091EEA9 /* ProfileView.xib in Resources */,
 				FAA8B73C28369A8B0091EEA9 /* LaunchScreen.storyboard in Resources */,
+				FAA8B7492836A1380091EEA9 /* Profile.storyboard in Resources */,
 				FAA8B73928369A8B0091EEA9 /* Assets.xcassets in Resources */,
 				FAA8B73728369A880091EEA9 /* Main.storyboard in Resources */,
 			);
@@ -138,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAA8B74628369E350091EEA9 /* ProfileView.swift in Sources */,
 				FAA8B73428369A880091EEA9 /* ViewController.swift in Sources */,
+				FAA8B74D2836B3890091EEA9 /* ProfileViewController.swift in Sources */,
 				FAA8B73028369A880091EEA9 /* AppDelegate.swift in Sources */,
 				FAA8B73228369A880091EEA9 /* SceneDelegate.swift in Sources */,
 			);
@@ -294,7 +310,8 @@
 				INFOPLIST_FILE = Netology_IB_Instruments/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Profile;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,7 +323,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -322,7 +339,8 @@
 				INFOPLIST_FILE = Netology_IB_Instruments/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Profile;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,7 +352,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
